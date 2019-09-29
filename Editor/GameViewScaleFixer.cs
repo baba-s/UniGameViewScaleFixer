@@ -7,7 +7,7 @@ using UnityEngine;
 namespace KoganeUnityLib
 {
 	[InitializeOnLoad]
-	public static class GameViewScaleFixer
+	internal static class GameViewScaleFixer
 	{
 		private static readonly Assembly     GAME_VIEW_ASSEMBLY = typeof( EditorWindow ).Assembly;
 		private static readonly Type         GAME_VIEW_TYPE     = GAME_VIEW_ASSEMBLY.GetType( "UnityEditor.GameView" );
