@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace KoganeUnityLib
+namespace UniGameViewScaleFixer
 {
 	[InitializeOnLoad]
 	internal static class GameViewScaleFixer
